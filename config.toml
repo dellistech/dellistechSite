@@ -1,0 +1,19 @@
+baseURL = "http://dellistech.com"
+languageCode = "en-us"
+title = "DellisTech blog"
+theme = "hpstr"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+
+[params]
+	subtitle = "The Ramblings of a madman"
+	[params.author]
+		name = "DellisTech"
+		avatar = "/images/avatar.jpg"
+		bio = "A cybersecurity geek"
+		github = "dellistech/dellistechSite"
+	[params.image]
+	  feature = "/images/abstract-1.jpg"
+	  credit = "dargadgetz"
+	  creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
