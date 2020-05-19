@@ -93,3 +93,12 @@ Once you've written your article, just push your changes to your GitHub repo. I'
 
 ## Netlify
 
+Netlify is dead simple after initial setup. Just sign up for a free account using your GitHub or GitLab account, authorize Netlify to connect to your Github account, and pick your site repo for a new Netlify site. 
+If all goes well, it should build and deploy. Netlify will assign a random domain name to your site, but you can point your own domain to your Netlify site.  
+
+The free tier is limited to 300 build minutes per month. My first build was a total of 10 seconds, so I don't anticipate any issues with running out of free build time. 
+
+## Wrapping up
+
+That's about it for the blog service stack. I am looking forward to tinkering with the site as time goes on. This is a really powerful and flexible setup that should be able to evolve along with my needs. 
+Hopefully this brief introduction can be of some help if anyone wants to set up their own static site blog.
