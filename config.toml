@@ -1,19 +1,70 @@
-baseURL = "http://dellistech.com"
-languageCode = "en-us"
-title = "DellisTech blog"
-theme = "hpstr"
-pluralizelisttitles = false
-PygmentsCodeFences = true
-Paginate = 5
+baseURL = '/'
+languageCode = 'en-us'
+title = 'DellisTech'
+theme = "blackburn"
+author = "Devon Ellis"
+copyright = "&copy; 2023. All rights reserved."
+canonifyurls = true
+paginate = 10
 
-[params]
-	subtitle = "The Ramblings of a madman"
-	[params.author]
-		name = "DellisTech"
-		avatar = "/images/avatar.jpg"
-		bio = "A cybersecurity geek"
-		github = "dellistech/dellistechSite"
-	[params.image]
-	  feature = "/images/abstract-1.jpg"
-	  credit = "dargadgetz"
-	  creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/dellistech"
+    twitter = "https://twitter.com/dellistech"
+    email = "contact@dellistech.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter="@dellistech"
+  # facebook="*"
+  # instagram="*"
+  # youtube="*"
+  # slideshare="*"
+  linkedin="dellistech/"
+  # reddit="*"
+  # hackernews="*"
+  github="dellistech"
+  # stackoverflow="*"
+  # serverfault="*"
+  # lastfm="*"
+  # keybase="*"
